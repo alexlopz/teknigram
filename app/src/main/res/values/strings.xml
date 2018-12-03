@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">teknigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hint_username">Nombre de Usuario</string>
+    <string name="hint_password">Contrasena</string>
+    <string name="text_buttom_login">Login</string>
+</resources>
