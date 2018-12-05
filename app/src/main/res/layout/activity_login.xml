@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -65,10 +64,32 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_buttom_login"
-                    android:theme="@style/RaisedButtonDark"/>
+                    android:theme="@style/RaisedButtonDark"
+                    android:onClick="goHome"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/dontHaveAccout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dontHaveAccout"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/donHaveAccount"/>
+                    <TextView
+                        android:id="@+id/create_here"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_here"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/donHaveAccount"
+                        android:layout_toRightOf="@id/dontHaveAccout"
+                        android:onClick="goCreateAccount"/>
 
-
-
+                </RelativeLayout>
             </LinearLayout>
         </ScrollView>
 
