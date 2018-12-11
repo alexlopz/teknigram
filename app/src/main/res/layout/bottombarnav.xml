@@ -11,8 +11,5 @@
     app:itemBackground="@drawable/bottombar_itembackground"
     app:itemIconTint="@android:color/white"
     app:itemTextColor="@android:color/white"
-
     app:menu="@menu/bottombar_menu">
-
-
     </android.support.design.widget.BottomNavigationView>
